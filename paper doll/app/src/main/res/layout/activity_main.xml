@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_region"
+        android:layout_width="1100dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="3dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="129dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1100dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@+id/main_region"
+        tools:layout_editor_absoluteY="3dp">
+
+        <TextView
+            android:id="@+id/myText"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="ToolBar"
+            android:textAlignment="inherit"
+            android:textColor="#4B1B1B"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:text="Reset"
+            android:textColor="#2B5C81" />
+
+        <Button
+            android:id="@+id/About"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="ABOUT"
+            android:textColor="#2B5C81" />
+
+        <TextView
+            android:id="@+id/myText2"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Snake Model"
+            android:textAlignment="inherit"
+            android:textColor="#4B1B1B"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/NewItem"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="CHANGE"
+            android:textColor="#2B5C81" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
